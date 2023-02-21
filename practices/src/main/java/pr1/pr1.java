@@ -1,3 +1,5 @@
+package pr1;
+
 import java.rmi.MarshalException;
 import java.util.Arrays;
 import java.util.Comparator;
