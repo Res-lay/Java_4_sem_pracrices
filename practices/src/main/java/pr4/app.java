@@ -5,7 +5,7 @@ package pr4;
 public class app {
     public static void main(String[] args) throws InterruptedException {
         MyExecutorService executorService = new MyExecutorService(3);
-        for(int i = 0; i < 20; i++){
+        for(int i = 0; i < 3; i++){
             executorService.submit(()->{
                 System.out.println("A");
             });
